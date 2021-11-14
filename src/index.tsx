@@ -5,13 +5,13 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { store } from './store';
 import * as serviceWorker from './serviceWorker';
-import { Page } from './components/Page';
+import { Pages } from './pages';
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Provider store={store}>
-        <Page />
+        <Pages />
       </Provider>
     </BrowserRouter>
   </React.StrictMode>,

@@ -18,7 +18,7 @@ export const Menu: FC = () => (
     </label>
     <input type="checkbox" id={visibleCheckId} className="menu-open-control" />
     <nav className="menu-panel">
-      <MenuItem name="Home" to="" ico={homeIco} />
+      <MenuItem name="Home" to="/" ico={homeIco} isEnd />
       <MenuItem name="Documents" to="/documents" ico={documentsIco} />
       <MenuItem name="Contacts" to="/contacts" ico={contactsIco} />
       <UserShortcutContainer isMobile />
